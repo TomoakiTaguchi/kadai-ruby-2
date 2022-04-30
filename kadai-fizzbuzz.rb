@@ -11,7 +11,7 @@ def fizzbuzz(num)
 end  
 
 #メソッドを呼び出し
-(1..100).each do |num|
-  num_max = 100
+num_max = 100
+(1..num_max).each do |num|
   puts fizzbuzz(num)
 end
